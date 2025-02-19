@@ -1,0 +1,206 @@
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    background-color: rgb(66, 179, 207);
+}
+
+#nav-links{
+    display: flex;
+    column-gap: 20px;
+}
+#page{
+    color: rgb(247, 162, 6); 
+    background-color: transparent;
+}
+#nav-links >a{
+    text-decoration: none;
+    color: rgb(253, 10, 2);
+    font-size: 20px;
+}
+#nav-links > img{
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+}
+#down{
+    background-color: rgb(192, 70, 29);
+    padding: 5px 15px;
+    border-radius: 9px;
+    box-shadow: 4px 7px 9px black;
+    color: white;
+}
+#name{
+    color: black;
+    background-color: transparent;
+}
+
+#down > img {
+    border-radius: 50%;
+}
+#down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contant{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#contant > #contantText{
+    width: 50%;
+} 
+#contantText{
+    margin: auto;
+}
+#cont-btn{
+    display: inline;
+    background-color: rgb(204, 202, 202);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+#cont-btn > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+#cont-btn > span{
+    padding: 9px 10px;
+    border-radius: 8px;
+    background-color: coral;
+}
+#cap{
+    position: relative;
+    left: 180px;
+}
+#cap > #cap-btn{
+    display: inline-block;
+    background-color: coral;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 9px;
+}
+#About{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    column-gap: 50px;
+}
+#About > img{
+    display: flex;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+#abo-contant{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#abo-contant > p {
+    text-size-adjust: 30px;
+}
+#ourabout{
+    display: inline-block;
+    border: 2px solid orange;
+    padding: 5px 9px;
+    background-color: rgb(204, 121, 83);
+    border-radius: 5px;
+}
+li::marker{
+    content: ".";
+    color: orange;
+    font-size: 50px;
+}
+#re{
+    background-color: coral;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 7px;
+    color: aliceblue;
+}
+#Our{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+    left: 500px;
+}
+#Our >span{
+    border: 2px solid orange;
+    background-color: rgb(204, 121, 83);
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+#card{
+    display: flex;
+    width: 100%;
+}
+#card{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px black;
+    margin-top: 80px;
+}
+#num{
+    display: flex;
+    background-color: rgb(211, 77, 77);
+    padding: 3px 4px;
+    position: relative;
+    bottom: -28px;
+    right: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 1px black;
+    height: fit-content;
+}
+#num2{
+    display: flex;
+    background-color: rgb(211, 77, 77);
+    padding: 3px 4px;
+    position: relative;
+    bottom: -28px;
+    right: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 1px black;
+    height: fit-content;
+}
+#num3{
+    display: flex;
+    background-color: rgb(211, 77, 77);
+    padding: 3px 4px;
+    position: relative;
+    bottom: -28px;
+    right: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 1px black;
+    height: fit-content;
+}
+span{
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.cards > div{
+    background-color: chocolate;
+    padding: 3px;
+
+} 
+
+
+
+
+
